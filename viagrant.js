@@ -13,6 +13,8 @@ const targets = {
 	haxe_targets: ["Haxe with environment for all targets", ["node", "haxe"]],
 	lamp: ["Apache 2, Mysql 5, PHP 7", []],
 	lua: ["Lua 5.2", []],
+	mautic_dev: ["Latest Mautic - Dev installation", ["lamp"]],
+	mautic_play: ["Latest Mautic - No Dev, Just play", ["lamp"]],
 	mongodb: ["Latest MongoDB", []],
 	node: ["Node.js 6.x", []],
 	python3: ["Python 3.4", []],
