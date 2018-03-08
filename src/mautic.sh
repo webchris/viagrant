@@ -1,6 +1,6 @@
 echo "=== Installing requirements..."
 apt-get install -y php libapache2-mod-php7.0 php-gd php-mysql php-curl php-cli php-xdebug php-xml mcrypt php7.0-mcrypt php7.0-zip
-apt-get install -y php7.0-bcmath php-zip unzip php-imap php-mailparse php-intl
+apt-get install -y php7.0-bcmath php-zip php-imap php-mailparse php-intl
 sudo -u root apt-get install -y php-mbstring php-bcmath php-amqplib php7.0-intl php7.0-imap
 apachectl graceful
 service apache2 restart
